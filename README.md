@@ -20,3 +20,10 @@ Two main models were used, the Densenet121 and the Densenet201. For each of them
 
 ## Model Application
 Given an image to be classified in a format accepted by keras image, the classification code searches for animals, crops the face, and applies it to the previously trained model, classifying the animal's mood as "angry", "happy", "sad", or "relaxed".
+
+## Results
+In the best model, using Densenet201, an accuracy of 73% was achieved on the test data.
+
+### Download Links for Models
+[Densenet121](https://1drv.ms/u/s!Agbyu4vkkajhhoEEZDRzJ4Dpa0QZdQ?e=psHgI4)
+[Densenet201](https://1drv.ms/u/s!Agbyu4vkkajhhoEFmxO5TiOi2zmkdA?e=t8RrmM)
