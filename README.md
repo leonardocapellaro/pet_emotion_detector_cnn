@@ -15,7 +15,7 @@ Two main models were used, the Densenet121 and the Densenet201. For each of them
 
 - EarlyStopping: Based on validation accuracy, a patience of 15 epochs was set for the model to stop if there was no evolution in this metric.
 - The base layers of the Dense were frozen to avoid retraining.
-- The base layer, a flatten layer, a dense layer with 512 neurons, a 50% dropout for this layer, and an output layer with 4 neurons, one for each class, were used.
+- The model architecture included a base layer, a flatten layer, a dense layer with 512 neurons, a dropout layer with a 50% dropout rate applied to it, and an output layer with 4 neurons, one for each class.
 - A learning rate decay per epoch was used, starting at 1e-3 and ending at 1e-5.
 
 ## Model Application
