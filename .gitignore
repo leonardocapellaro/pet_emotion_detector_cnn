@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Compiled Python files
+*.pyc
+
+# h5 models
+*.h5
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# PyCharm settings
+.idea/
+
+# Visual Studio Code settings
+.vscode/
+
+# Mac OS metadata files
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
+
+# Python debugger (pdb) files
+pdb/
+
+# Python profiling files
+profile_*.txt
+
+# __pycache__ directories from Python 3.2+
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SageMath parsed files
+.sage-parsed/
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# Editor-specific files
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+.komodoide/
+.idea/
+.vscode/
+*.swp
+
+# PyInstaller
+dist/
+build/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+.sage-parsed/
+
+# dotenv
+.env
+
+# SQLalchemy
+.sqlacodegen.py
